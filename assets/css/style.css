@@ -44,7 +44,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
-	background-color: #f9f9f9;
+	background-color: #edecec;
 }
 ol, ul {
 	list-style: none;
@@ -70,11 +70,12 @@ table {
 	margin: 0 auto;
 }
 header {
-	background-color: #6730EC;
+	background-color: #b685c6;
 	color: white;
-	padding: 5em 0 2em;
-	margin-bottom: 5em;
+	padding: 1em 0 2em;
+	margin-bottom: 3em;
 }
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Great Vibes', cursive;
 }
@@ -82,7 +83,7 @@ h1 {
 	font-size: 3rem;
 }
 h2 {
-	font-size: 2.5rem;
+	font-size: 1rem;
 }
 h3 {
 	font-size: 1.5rem;
@@ -160,13 +161,7 @@ b {
 small {
 	font-size: .8rem;
 }
-footer {
-	display: block;
-	width: 100%;
-	margin: 5em 0 0;
-	padding: 0 0 2em;
-	overflow: hidden;
-}
+
 /*INPUT CHECK*/
 input[type|=check] {
 	display: inline-block;
@@ -187,12 +182,179 @@ input[type=number]::-webkit-outer-spin-button {
 /* estilos mios */
 
 .pokemon{
-	width: 60%;
-	 display: inline-block;
+	width: 100%;
+	display: inline-block;
 }
 .pokedex {
 	width:30%;
 	height: 600px;
 	display: inline-block; 
 	vertical-align: top;
+}
+
+img{
+
+	width: 13%;
+	background-color:#7aa44a;
+	margin: 2% 2%;
+	padding: 4% 1%;
+}
+
+.section-one input {
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	width: 91%;
+	color: black;
+}
+.section-one .fa{
+	font-size: 150%;
+}
+
+
+.btn {
+	height: 35px;
+    line-height: 3px;
+    padding: 13px 2rem;
+    background-color: #ef66b9;
+    padding-right: 5%;
+    padding-left: 7%;
+    color: white;
+}
+
+footer {
+	display: block;
+	width: 100%;
+	margin: 5em 0 0;
+	padding: 0 0 2em;
+	overflow: hidden;
+}
+
+
+.pokeball{
+  float:both;
+  position: relative;
+  width:100px;
+  animation:example 6s linear infinite alternate;
+}
+
+.poke{
+   animation: whitered 4s infinite alternate ;
+  
+  font-family:courier;
+  font-size:80px;
+}
+.xy{
+  border-radius:20%;
+  border:30px solid black;
+  
+    width: 100%;
+    height: auto;
+}
+.big{
+  font-family:cursive;
+  font-size:30px;
+  font-weight: bold;
+  
+  
+}
+dl{
+  font-size:25px;
+  margin-left:200px;
+  font-family:cursive;
+  font-weight: bold;
+ 
+}
+dd{
+  font-size:20px;
+  font-family:cursive;
+  font-weight: bold;
+   padding:40px;
+  
+}
+#red{
+  color:red;
+}
+
+#blue{
+  color:blue;
+  
+}
+#yellow{
+  color:yellow;
+  
+}
+
+#green{
+  color:green;
+}
+#gold{
+  color:gold;
+}
+#silver{
+  color:silver;
+}
+#crystal{
+  color: #1ad1ff;
+}
+#ruby{
+  color:#b32400;
+}
+#sapphire{
+  color:#0047b3;
+}
+#emerald{
+  color:#009900;
+ 
+}
+#diamond{
+  color: #75a3a3;
+
+}
+#pearl{
+  color: #ff99ff;
+}
+#black{
+  color:black;
+}
+#white{
+  color:white;
+}
+#x{
+  color:#0066ff;
+}
+#y{
+  color:#ff33cc;
+}
+@keyframes example {
+  0% {
+    
+    left: 0px;
+  }
+  50% {
+    
+    left: 530px;
+    transform: rotate(360deg);
+  }
+  100% {
+    
+    left: 0px;
+    
+  }
+}
+@keyframes whitered {
+  0% {
+    color: blue;
+    
+  }
+  50% {
+    color: green;
+    
+    
+  }
+  100% {
+    color: red;
+    
+    
+  }
 }
